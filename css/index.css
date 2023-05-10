@@ -1,1 +1,54 @@
-ECHO est  activado.
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    border: 1px solid black;
+    border-top: 0px;
+}
+
+#nav .material-icons{
+    padding: 15px;
+}
+
+
+#nav .img-nav img{
+    padding: 15px;
+     height: 25px;
+
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    margin-top: 60px;
+    background: #eae7e7;
+    border: 1px solid red;
+}
+
+
+#header .img{
+    height: 600px;
+}
+
+#header .ficha{
+    padding: 100px;
+}
+#header .ficha button{
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+#header .ficha .red{
+    background: red;
+    color: white
+}
+#header .ficha .black{
+    background: black;
+    color: white;
+}
