@@ -6,19 +6,29 @@
 #nav{
     display: flex;
     justify-content: space-evenly;
-    height: 50px;
+    height: 55px;
     border: 1px solid black;
     border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
 }
 
 #nav .material-icons{
-    padding: 15px;
+    padding: 10px;
+    position: absolute;
+    left:0px;
 }
 
+#nav .menu{
+    padding: 15px;
+    font-size: 12px;
+    position: absolute;
+    left:30px;
+}
 
 #nav .img-nav img{
     padding: 15px;
-     height: 25px;
+     height: 30px;
 
 }
 
@@ -28,7 +38,6 @@
     height: 600px;
     margin-top: 60px;
     background: #eae7e7;
-    border: 1px solid red;
 }
 
 
@@ -38,17 +47,43 @@
 
 #header .ficha{
     padding: 100px;
+    text-align: center;
+    position: relative;
+    top: 90px;
+    
 }
 #header .ficha button{
     border-radius: 25px;
     padding: 10px 30px;
+    margin: 30px;
+
 }
 
 #header .ficha .red{
     background: red;
-    color: white
+    color: white;
+    position: relative;
+    top: 50px;
+
+    
 }
 #header .ficha .black{
     background: black;
     color: white;
 }
+
+#menus{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top:20px;
+    margin: 60px;
+    height: 100px;
+}
+
+    #menus .button button{
+        padding: 7px 20px ;
+        background: white;
+        border-radius: 25px;
+        border-width: 1.5px;
+    }
