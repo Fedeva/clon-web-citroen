@@ -75,10 +75,9 @@
 #menus{
     display: flex;
     justify-content: center;
-    position: sticky;
-    top:20px;
+    /* position: sticky;
+    top:20px; */
     margin: 60px;
-    height: 100px;
 }
 
     #menus .button button{
@@ -86,4 +85,142 @@
         background: white;
         border-radius: 25px;
         border-width: 1.5px;
+    }
+
+    #one{
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        height: 300px;
+    }
+
+    #one img{
+        height: 250px;
+        
+    }
+    #one .imgOne{
+        padding-left: 100px;
+    }
+    #one .imgOne h2{
+        position: relative;
+        bottom: 25px;
+        left: 60px;
+    }
+
+
+    #one .list{
+        padding-left: 100px;
+        position: relative;
+        top: 50px;        
+    }
+    #one .list ul{
+        position: relative;
+        left: 50px;
+    }
+
+    #two img{
+        height: 950px;
+        
+    }
+
+    #three{
+        display: flex;
+        justify-content: center;
+        padding: 100px;
+        height: 300px;
+    }
+
+    #three img{
+        height: 250px;
+        
+    }
+    #three .imgThree{
+        padding-left: 100px;
+    }
+    #three .imgThree h2{
+        position: relative;
+        bottom: 50px;
+        left: 60px;
+    }
+
+    #three .text{
+        padding-left: 100px;
+        position: relative;
+        top: 20px;        
+    }
+
+    #four{
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        height: 300px;
+    }
+
+    #four img{
+        height: 250px;
+        
+    }
+    #four .imgFour{
+        padding-left: 100px;
+    }
+    #four .imgFour h2{
+        position: relative;
+        bottom: 50px;
+        left: 60px;
+    }
+
+    #four .textInt{
+        padding-left: 100px;
+        position: relative;
+        top: 20px;        
+    }
+
+    #five{
+        display: flex;
+        justify-content: center;
+        padding: 60px;
+        height: 300px;
+    }
+
+    #five img{
+        height: 250px;
+        
+    }
+    #five .imgFive{
+        padding-left: 100px;
+    }
+    #five .textOut h2{
+        position: relative;
+        bottom: 50px;
+    }
+
+    #five .textOut{
+        padding-left: 100px;
+        position: relative;
+        top: 20px;        
+    }
+
+    #six{
+        display: flex;
+        justify-content: center;
+        padding: 100px;
+        height: 300px;
+    }
+
+    #six img{
+        height: 250px;
+        
+    }
+    #six .imgSix{
+        padding-left: 100px;
+    }
+    #six .textOuter h2{
+        position: relative;
+        bottom: 50px;
+    }
+
+    #six .textOuter{
+        padding-left: 100px;
+        position: relative;
+        top: 20px;        
     }
