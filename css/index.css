@@ -11,6 +11,8 @@
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
+    font-family: 'Ubuntu', sans-serif;
+   
 }
 
 #nav .material-icons{
@@ -38,6 +40,7 @@
     height: 600px;
     margin-top: 60px;
     background: #eae7e7;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -75,9 +78,10 @@
 #menus{
     display: flex;
     justify-content: center;
-    /* position: sticky;
-    top:20px; */
+    position: sticky;
+    top:20px;
     margin: 60px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
     #menus .button button{
@@ -92,6 +96,7 @@
         justify-content: center;
         padding: 50px;
         height: 300px;
+        font-family: 'Ubuntu', sans-serif;
     }
 
     #one img{
@@ -128,6 +133,7 @@
         justify-content: center;
         padding: 100px;
         height: 300px;
+        font-family: 'Ubuntu', sans-serif;
     }
 
     #three img{
@@ -154,6 +160,7 @@
         justify-content: center;
         padding: 50px;
         height: 300px;
+        font-family: 'Ubuntu', sans-serif;
     }
 
     #four img{
@@ -178,8 +185,9 @@
     #five{
         display: flex;
         justify-content: center;
-        padding: 60px;
+        padding: 60 px;
         height: 300px;
+        font-family: 'Ubuntu', sans-serif;
     }
 
     #five img{
@@ -191,7 +199,7 @@
     }
     #five .textOut h2{
         position: relative;
-        bottom: 50px;
+        bottom: 20px;
     }
 
     #five .textOut{
@@ -205,6 +213,7 @@
         justify-content: center;
         padding: 100px;
         height: 300px;
+        font-family: 'Ubuntu', sans-serif;
     }
 
     #six img{
@@ -216,11 +225,69 @@
     }
     #six .textOuter h2{
         position: relative;
-        bottom: 50px;
+        bottom: 10px;
     }
 
     #six .textOuter{
         padding-left: 100px;
-        position: relative;
-        top: 20px;        
     }
+
+
+    #end {
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 35px;
+        height: 200px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    #end img{
+        height: 40px;
+    }
+
+    #end ol{
+        font-size: small;
+        font-size: 0.875em;
+        line-height: 1.5em;
+    }
+
+    #end ol ul{
+        line-height: 1.8em;
+        font-size: small;
+    }
+
+    #footer {
+        display: flex;
+        justify-content: space-evenly;
+        height: 90px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: small;
+        
+    }
+    #footer .img{
+     position: relative;
+     right: 150px;
+     bottom: 18px;
+    }
+
+    #footer .twitter{
+        padding-left: 15px;
+        height: 40px;
+    }
+    #footer .face{
+        padding-left: 15px;
+        height: 33px;
+    }
+    #footer .youtube{
+        padding-left: 20px;
+        height: 33px;
+    }
+    #footer .insta{
+        padding-left: 15px;
+        position: relative;
+        top: 5px;
+        height: 45px;
+    }
+   
+
+    
