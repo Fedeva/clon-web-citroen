@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 
 #nav{
@@ -11,28 +12,26 @@
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    font-family: 'Ubuntu', sans-serif;
-   
 }
-
-#nav .material-icons{
+#nav
+    .material-icons{
     padding: 10px;
     position: absolute;
     left:0px;
-}
+ }
 
-#nav .menu{
+    .menu{
     padding: 15px;
     font-size: 12px;
     position: absolute;
     left:30px;
-}
+ }
 
-#nav .img-nav img{
+     .img-nav img{
     padding: 15px;
      height: 30px;
 
-}
+ }
 
 #header{
     display: flex;
@@ -40,51 +39,51 @@
     height: 600px;
     margin-top: 60px;
     background: #eae7e7;
-    font-family: 'Ubuntu', sans-serif;
-}
+        }
+#header
 
+         .img{
+         height: 600px;
+     }
 
-#header .img{
-    height: 600px;
-}
-
-#header .ficha{
-    padding: 100px;
-    text-align: center;
-    position: relative;
-    top: 90px;
+         .ficha{
+         padding: 100px;
+         text-align: center;
+         position: relative;
+         top: 90px;
     
-}
-#header .ficha button{
-    border-radius: 25px;
-    padding: 10px 30px;
-    margin: 30px;
+     }
+         .ficha button{
+         border-radius: 25px;
+         padding: 10px 30px;
+         margin: 30px;
 
-}
+    }
 
-#header .ficha .red{
-    background: red;
-    color: white;
-    position: relative;
-    top: 50px;
+         .ficha .red{
+         background: red;
+         color: white;
+         position: relative;
+         top: 50px;
 
     
-}
-#header .ficha .black{
-    background: black;
-    color: white;
-}
-
+     }
+         .ficha .black{
+         background: black;
+         color: white;
+       }
+ 
 #menus{
+    
     display: flex;
     justify-content: center;
     position: sticky;
     top:20px;
     margin: 60px;
-    font-family: 'Ubuntu', sans-serif;
 }
+#menus
 
-    #menus .button button{
+     .button button{
         padding: 7px 20px ;
         background: white;
         border-radius: 25px;
@@ -96,32 +95,37 @@
         justify-content: center;
         padding: 50px;
         height: 300px;
-        font-family: 'Ubuntu', sans-serif;
     }
 
-    #one img{
-        height: 250px;
+     img{
+          height: 250px;
         
-    }
-    #one .imgOne{
-        padding-left: 100px;
-    }
-    #one .imgOne h2{
-        position: relative;
-        bottom: 25px;
-        left: 60px;
-    }
+       }
+
+    #one
+             .imgOne{
+             padding-left: 100px;
+         }
+             .imgOne h2{
+             position: relative;
+             bottom: 25px;
+             left: 60px;
+         }
 
 
-    #one .list{
-        padding-left: 100px;
-        position: relative;
-        top: 50px;        
-    }
-    #one .list ul{
-        position: relative;
-        left: 50px;
-    }
+             .list{
+             padding-left: 100px;
+             position: relative;
+             top: 50px;  
+             line-height: 120%;
+              
+        }
+              .list ul{
+             position: relative;
+             left: 50px;
+             line-height: 120%;
+         }
+
 
     #two img{
         height: 950px;
@@ -133,76 +137,80 @@
         justify-content: center;
         padding: 100px;
         height: 300px;
-        font-family: 'Ubuntu', sans-serif;
     }
 
     #three img{
         height: 250px;
         
     }
-    #three .imgThree{
+    #three
+         .imgThree{
         padding-left: 100px;
-    }
-    #three .imgThree h2{
+      }
+         .imgThree h2{
         position: relative;
         bottom: 50px;
         left: 60px;
-    }
+      }
 
-    #three .text{
+        .text{
         padding-left: 100px;
         position: relative;
-        top: 20px;        
-    }
+        top: 20px;
+        line-height: 120%;
+        
+      }
 
     #four{
         display: flex;
         justify-content: center;
         padding: 50px;
         height: 300px;
-        font-family: 'Ubuntu', sans-serif;
     }
 
     #four img{
         height: 250px;
         
     }
-    #four .imgFour{
+    #four
+        .imgFour{
         padding-left: 100px;
-    }
-    #four .imgFour h2{
+      }
+        .imgFour h2{
         position: relative;
         bottom: 50px;
         left: 60px;
-    }
+      }
 
-    #four .textInt{
+        .textInt{
         padding-left: 100px;
         position: relative;
-        top: 20px;        
-    }
+        top: 20px;   
+        line-height: 120%;     
+      }
 
     #five{
         display: flex;
         justify-content: center;
         padding: 60 px;
         height: 300px;
-        font-family: 'Ubuntu', sans-serif;
     }
 
     #five img{
         height: 250px;
         
     }
-    #five .imgFive{
+    #five 
+       .imgFive{
         padding-left: 100px;
     }
-    #five .textOut h2{
+        .textOut h2{
         position: relative;
         bottom: 20px;
+        line-height: 120%;
     }
 
-    #five .textOut{
+        .textOut{
         padding-left: 100px;
         position: relative;
         top: 20px;        
@@ -213,24 +221,26 @@
         justify-content: center;
         padding: 100px;
         height: 300px;
-        font-family: 'Ubuntu', sans-serif;
     }
 
     #six img{
         height: 250px;
         
     }
-    #six .imgSix{
+    #six 
+      .imgSix{
         padding-left: 100px;
-    }
-    #six .textOuter h2{
+     }
+       .textOuter h2{
         position: relative;
         bottom: 10px;
-    }
 
-    #six .textOuter{
+     }
+
+        .textOuter{
         padding-left: 100px;
-    }
+        line-height: 120%;
+      }
 
 
     #end {
@@ -238,56 +248,66 @@
         justify-content: space-evenly;
         padding-left: 35px;
         height: 200px;
-        font-family: 'Ubuntu', sans-serif;
     }
 
-    #end img{
+    #end 
+        img{
         height: 40px;
     }
 
-    #end ol{
+        ol{
         font-size: small;
         font-size: 0.875em;
         line-height: 1.5em;
     }
 
-    #end ol ul{
+         ol ul{
         line-height: 1.8em;
-        font-size: small;
+        font-size: 14px;
     }
 
     #footer {
         display: flex;
         justify-content: space-evenly;
         height: 90px;
-        font-family: 'Ubuntu', sans-serif;
-        font-size: small;
-        
-    }
-    #footer .img{
-     position: relative;
-     right: 150px;
-     bottom: 18px;
-    }
-
-    #footer .twitter{
-        padding-left: 15px;
-        height: 40px;
-    }
-    #footer .face{
-        padding-left: 15px;
-        height: 33px;
-    }
-    #footer .youtube{
-        padding-left: 20px;
-        height: 33px;
-    }
-    #footer .insta{
-        padding-left: 15px;
+        font-size: 14px;
         position: relative;
-        top: 5px;
-        height: 45px;
+        right: 25px;
+       
     }
-   
+    #footer
+         .img{
+             right: 120px;
+             position: relative;
+             bottom: 18px;
+        }
 
+          .twitter{
+             padding-left: 15px;
+             height: 40px;
+         }
+          .face{
+            padding-left: 15px;
+            height: 33px;
+        }
+          .youtube{
+              padding-left: 20px;
+              height: 33px;
+         } 
+           .insta{
+              padding-left: 15px;
+              position: relative;
+              top: 5px;
+              height: 45px;
+        }
+   
+      #end-footer {
+        display: flex;
+
+      }
+
+      #end-footer img{
+        height: 80px;
+        width: 84px;
+      }
     
