@@ -13,21 +13,20 @@
     border-left: 0px;
     border-right: 0px;
 }
-#nav
-    .material-icons{
+#nav .material-icons{
     padding: 10px;
     position: absolute;
     left:0px;
  }
 
-    .menu{
+#nav .menu{
     padding: 15px;
     font-size: 12px;
     position: absolute;
     left:30px;
  }
 
-     .img-nav img{
+#nav .img-nav img{
     padding: 15px;
      height: 30px;
 
@@ -40,38 +39,36 @@
     margin-top: 60px;
     background: #eae7e7;
         }
-#header
-
-         .img{
+#header .img{
          height: 600px;
      }
 
-         .ficha{
-         padding: 100px;
-         text-align: center;
-         position: relative;
-         top: 90px;
+#header .ficha{
+    padding: 100px;
+    text-align: center;
+    position: relative;
+    top: 90px;
     
      }
-         .ficha button{
-         border-radius: 25px;
-         padding: 10px 30px;
-         margin: 30px;
+#header .ficha button{
+     border-radius: 25px;
+     padding: 10px 30px;
+     margin: 30px;
 
     }
 
-         .ficha .red{
-         background: red;
-         color: white;
-         position: relative;
-         top: 50px;
+#header .ficha .red{
+     background: red;
+     color: white;
+     position: relative;
+     top: 50px;
 
-    
+    }
+         
+#header .ficha .black{
+     background: black;
+     color: white;
      }
-         .ficha .black{
-         background: black;
-         color: white;
-       }
  
 #menus{
     
@@ -81,187 +78,200 @@
     top:20px;
     margin: 60px;
 }
-#menus
 
-     .button button{
-        padding: 7px 20px ;
-        background: white;
-        border-radius: 25px;
-        border-width: 1.5px;
+#menus .button button{
+    padding: 7px 20px ;
+    background: white;
+    border-radius: 25px;
+    border-width: 1.5px;
+}   
+
+#one { 
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    height: 300px;
     }
 
-    #one{
-        display: flex;
-        justify-content: center;
-        padding: 50px;
-        height: 300px;
-    }
-
-     img{
-          height: 250px;
+#one img{
+    height: 250px;
         
        }
 
-    #one
-             .imgOne{
-             padding-left: 100px;
-         }
-             .imgOne h2{
-             position: relative;
-             bottom: 25px;
-             left: 60px;
+#one .imgOne{
+    padding-left: 100px;
          }
 
+#one .imgOne h2{
+    position: relative;
+    bottom: 25px;
+    left: 60px;
+         }
 
-             .list{
-             padding-left: 100px;
-             position: relative;
-             top: 50px;  
-             line-height: 120%;
+#one .list{
+    padding-left: 100px;
+    position: relative;
+    top: 50px;  
+    line-height: 120%;
               
         }
-              .list ul{
-             position: relative;
-             left: 50px;
-             line-height: 120%;
+#one .list ul{
+    position: relative;
+    left: 50px;
+    line-height: 120%;
          }
 
 
-    #two img{
-        height: 950px;
+#two img{
+    height: 950px;
         
     }
 
-    #three{
-        display: flex;
-        justify-content: center;
-        padding: 100px;
-        height: 300px;
+#three{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    height: 300px;
     }
 
-    #three img{
-        height: 250px;
+#three img{
+    height: 250px;
         
     }
-    #three
-         .imgThree{
-        padding-left: 100px;
+
+#three .imgThree{
+    padding-left: 100px;
       }
-         .imgThree h2{
-        position: relative;
-        bottom: 50px;
-        left: 60px;
+         
+#three .imgThree h2{
+    position: relative;
+    bottom: 50px;
+    left: 60px;
       }
 
-        .text{
-        padding-left: 100px;
-        position: relative;
-        top: 20px;
-        line-height: 120%;
+#three .text{
+    padding-left: 100px;
+    position: relative;
+    top: 20px;
+    line-height: 120%;
         
       }
 
-    #four{
-        display: flex;
-        justify-content: center;
-        padding: 50px;
-        height: 300px;
+#four{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    height: 300px;
     }
 
-    #four img{
-        height: 250px;
+#four img{
+    height: 250px;
         
     }
-    #four
-        .imgFour{
-        padding-left: 100px;
+
+#four .imgFour{
+    padding-left: 100px;
       }
-        .imgFour h2{
-        position: relative;
-        bottom: 50px;
-        left: 60px;
+        
+#four .imgFour h2{
+    position: relative;
+    bottom: 50px;
+    left: 60px;
       }
 
-        .textInt{
-        padding-left: 100px;
-        position: relative;
-        top: 20px;   
-        line-height: 120%;     
+#four .textInt{
+    padding-left: 100px;
+    position: relative;
+    top: 20px;   
+    line-height: 120%;     
       }
 
-    #five{
-        display: flex;
-        justify-content: center;
-        padding: 60 px;
-        height: 300px;
+#five{
+    display: flex;
+    justify-content: center;
+    padding: 60 px;
+    height: 300px;
     }
 
-    #five img{
-        height: 250px;
+#five img{
+
+    height: 250px;
         
     }
-    #five 
-       .imgFive{
-        padding-left: 100px;
+
+#five .imgFive{
+
+    padding-left: 100px;
     }
-        .textOut h2{
-        position: relative;
-        bottom: 20px;
-        line-height: 120%;
+        
+#five .textOut h2{
+   position: relative;
+   bottom: 20px;
+   line-height: 120%;
     }
 
-        .textOut{
-        padding-left: 100px;
-        position: relative;
-        top: 20px;        
+#five .textOut{
+
+    padding-left: 100px;
+    position: relative;
+    top: 20px;        
     }
 
-    #six{
-        display: flex;
-        justify-content: center;
-        padding: 100px;
-        height: 300px;
+#six{
+
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    height: 300px;
     }
 
-    #six img{
-        height: 250px;
+#six img{
+    
+    height: 250px;
         
     }
-    #six 
-      .imgSix{
-        padding-left: 100px;
+
+#six .imgSix{
+
+    padding-left: 100px;
+    
+    }
+       
+#six .textOuter h2{
+
+    position: relative;
+    bottom: 10px;
+
      }
-       .textOuter h2{
-        position: relative;
-        bottom: 10px;
 
-     }
+#six .textOuter{
 
-        .textOuter{
-        padding-left: 100px;
-        line-height: 120%;
-      }
+    padding-left: 100px;
+    line-height: 120%;
+    
+    }
 
 
-    #end {
+ #end {
+
         display: flex;
         justify-content: space-evenly;
         padding-left: 35px;
         height: 200px;
     }
 
-    #end 
-        img{
+ #end  img{
+
         height: 40px;
     }
 
-        ol{
+#end ol{
         font-size: small;
         font-size: 0.875em;
         line-height: 1.5em;
     }
 
-         ol ul{
+#end ol ul{
         line-height: 1.8em;
         font-size: 14px;
     }
@@ -275,39 +285,54 @@
         right: 25px;
        
     }
-    #footer
-         .img{
-             right: 120px;
-             position: relative;
-             bottom: 18px;
-        }
 
-          .twitter{
-             padding-left: 15px;
-             height: 40px;
-         }
-          .face{
-            padding-left: 15px;
-            height: 33px;
-        }
-          .youtube{
-              padding-left: 20px;
-              height: 33px;
-         } 
-           .insta{
-              padding-left: 15px;
-              position: relative;
-              top: 5px;
-              height: 45px;
-        }
+#footer .img{
+
+        right: 120px;
+        position: relative;
+        bottom: 18px;
+       
+    }
+
+#footer .twitter{
+
+        padding-left: 15px;
+        height: 40px;
+    
+    }
+#footer .face{
+
+        padding-left: 15px;
+        height: 33px;
+        
+     }
+          
+#footer .youtube{
+
+        padding-left: 20px;
+        height: 33px;
+     
+     } 
+           
+#footer .insta{
+
+        padding-left: 15px;
+        position: relative;
+        top: 5px;
+        height: 45px;
+    
+    }
    
-      #end-footer {
+#end-footer {
+
         display: flex;
 
       }
 
-      #end-footer img{
+#end-footer img{
+
         height: 80px;
         width: 84px;
-      }
+    
+    }
     
