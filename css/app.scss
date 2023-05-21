@@ -1,0 +1,250 @@
+#nav {
+   .material-icons{
+    padding: 10px;
+    position: absolute;
+    left:0px;
+ }
+
+   .menu{
+    padding: 15px;
+    font-size: 12px;
+    position: absolute;
+    left:30px;
+ }
+
+   .img-nav img{
+    padding: 15px;
+     height: 30px;
+
+ }
+}
+
+
+#header {
+   
+   .img{
+    height: 600px;
+  }
+
+   .ficha{
+       text-align: center;
+       padding: 100px;
+       top: 90px;
+       position: relative;
+
+    }
+    .ficha button{
+        padding: 10px 30px;
+        border-radius: 25px;
+        margin: 30px;
+   }
+
+     .ficha .red{
+         color: white;
+         background: red;
+         top: 50px;
+         position: relative;
+
+    }
+      
+     .ficha .black{
+         color: white;
+         background: black;  
+     }
+}
+
+
+#one {
+
+  img{
+    height: 250px;
+        
+       }
+
+  .imgOne{
+      padding-left: 100px;
+         }
+
+   .imgOne h2{
+       bottom: 25px;
+       position: relative;
+       left: 60px;
+         }
+
+   .list{
+       position: relative;
+       padding-left: 100px;
+       line-height: 120%;
+       top: 50px;  
+              
+        }
+   .list ul{
+       left: 50px;
+       position: relative;
+        line-height: 120%;
+         }
+    }
+
+
+
+ #three {
+    img{
+        height: 250px;
+            
+        }
+    
+    .imgThree{
+        padding-left: 100px;
+          }
+             
+    .imgThree h2{
+        position: relative;
+        bottom: 50px;
+        left: 60px;
+          }
+    
+    .text{
+        padding-left: 100px;
+        position: relative;
+        top: 20px;
+        line-height: 120%;
+            
+          }
+ }
+
+ #four {
+
+     img{
+       height: 250px;
+        
+    }
+
+    .imgFour{
+       padding-left: 100px;
+      }
+        
+    .imgFour h2{
+        bottom: 50px;
+        position: relative;
+        left: 60px;
+      }
+
+   .textInt{
+       position: relative;
+       padding-left: 100px;
+       line-height: 120%;     
+       top: 20px;   
+      }
+ }
+
+ #five { 
+   img{
+
+      height: 250px;
+        
+    }
+
+    .imgFive{
+
+       padding-left: 100px;
+    }
+        
+     .textOut h2{
+         bottom: 20px;
+         position: relative;
+         line-height: 120%;
+      }
+
+     .textOut{
+
+         position: relative;
+         padding-left: 100px;
+         top: 20px;        
+     }
+    }
+
+    #six {
+        img{
+    
+        height: 250px;
+            
+        }
+    
+       .imgSix{
+    
+           padding-left: 100px;
+        
+        }
+           
+       .textOuter h2{
+    
+          position: relative;
+          bottom: 10px;
+    
+         }
+    
+        .textOuter{
+    
+          padding-left: 100px;
+          line-height: 120%;
+        
+        }
+    }
+
+    #end { 
+       img{
+
+        height: 40px;
+    }
+
+    ol{
+        font-size: small;
+        font-size: 0.875em;
+        line-height: 1.5em;
+    }
+
+   ol ul{
+        line-height: 1.8em;
+        font-size: 14px;
+     }
+    }
+
+
+#footer {
+   .img{
+
+        right: 120px;
+        position: relative;
+        bottom: 18px;
+       
+    }
+
+    .twitter{
+
+        padding-left: 15px;
+        height: 40px;
+    
+    }
+    .face{
+
+        padding-left: 15px;
+        height: 33px;
+        
+     }
+          
+    .youtube{
+
+        padding-left: 20px;
+        height: 33px;
+     
+     } 
+           
+    .insta{
+
+        padding-left: 15px;
+        position: relative;
+        top: 5px;
+        height: 45px;
+    
+    }
+}
